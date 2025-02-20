@@ -7,7 +7,7 @@ npm i
 npm run dev - launch server in development mode
 npm run build - for build
 
-# How to pay
+# How to play
 
 After launching of project you can press on a ball, move your mouse away but in the table area and then let your mouse go.
 And you'll see a physical movement of balls with collisions
