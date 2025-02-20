@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Billiard balls</title>
+    <style>
+      html,
+      body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+      }
+
+      #billiard-game {
+        width: inherit;
+        height: inherit;
+        background-color: #909090;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
+    <div id="billiard-game"></div>
     <script type="module" src="index.ts"></script>
   </body>
 </html>
